@@ -4,14 +4,15 @@ public class ImparesConsecutivos {
     public static void main(String[] args) {
         Scanner sca = new Scanner(System.in);
 
-        int vetor[] = new int[6];
         int X = sca.nextInt();
-
-        for(int i=X; i < vetor.length; i++){
-            if(i % 2 != 0){
-                vetor[i] = i;
-                System.out.println(vetor[i]);
+        int cont = 0;
+        
+        while( cont < 6){
+            if(X % 2 != 0){
+                System.out.println(X);
+                cont++;
             }
+            X++;
         }
 
         sca.close();
