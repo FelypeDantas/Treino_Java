@@ -1,0 +1,9 @@
+.button-salvar {
+    -fx-background-color: #add8e6; /* Azul claro */
+    -fx-text-fill: black; /* Cor do texto */
+}
+
+.button-pesquisar {
+    -fx-background-color: #90ee90; /* Verde claro */
+    -fx-text-fill: black; /* Cor do texto */
+}
