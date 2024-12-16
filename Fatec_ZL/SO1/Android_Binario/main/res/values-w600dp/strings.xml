@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digite_um_valor_entre_1_e_1000">Digite um valor entre 1 e 1000</string>
+    <string name="converter">Converter</string>
+</resources>
